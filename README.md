@@ -25,5 +25,5 @@ localhost:3000
 
 ## 追加情報
 
-1. Railsのコンテナイメージの名前は、docker-compose内の該当コメント記載がある箇所で変更できます。
+1. Railsのコンテナイメージの名前は、[docker-compose.yml](https://github.com/hiroki1242/rails-docker/blob/docker/docker-compose.yml "yamlファイル")内の該当コメント記載がある箇所で変更できます。
 1. サーバーをタッチモードで起動する場合`docker-compose up`の後に`-d`オプションをつけてください。
