@@ -6,7 +6,7 @@ volumes:
 services:
   web:
     build: .
-    # イメージ名に指定したい名前を記載
+    # <リポジトリ名:タグ名>に指定したい名前を記載
     image: rails-docker-web:latest
     ports:
       - '3000:3000'
